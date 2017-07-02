@@ -6,7 +6,6 @@ using namespace std;
 const int N = 110;
 bool sg[N];
 int val[3] = (2,3,5), n;
-
 void init() {
    sg[1] = 0;
    sg[0] = sg[2] = sg[3] = sg[4] = sg[5] = 1;
@@ -17,7 +16,6 @@ void init() {
       sg[i] = (sg[i]^1);
    }
 }
-
 int main() {
    int T;
    scanf("%d",&T);
